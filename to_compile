@@ -1,0 +1,4 @@
+#!/bin/bash
+#on Cori:
+cc -o mpi_read mpi_read.c
+cc -o istream_read istream_read.cpp
