@@ -1,5 +1,6 @@
 #!/bin/bash
-
+## run this before testing
+## salloc -N 1 -q interactive -C haswell -t 30 --bbf=bbf.conf
 for i in 1 2 3
 do
 for j in 1 2 4 8 16 32 64
